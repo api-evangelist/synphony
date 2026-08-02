@@ -1,7 +1,29 @@
 aid: synphony
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synphony.png
 name: Synphony
-description: Synphony is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Synphony builds and deploys robots that work in the real world, combining AI,
+  robotics, and human-in-the-loop systems so machines can perform practical
+  physical tasks across agriculture, assembly, and inspection. Its platform
+  trains AI models on real-world data, tests robot performance in realistic
+  scenarios, and deploys systems into production. The company's first
+  application is autonomous strawberry-harvesting robots plus farm software
+  services (bed-level analytics, data-pipeline integration, and agentic
+  solutions), targeting California's roughly $3B strawberry industry where labor
+  is about 60% of costs. Founded in 2025 and backed by Y Combinator (Spring
+  2026), Synphony runs a customer-facing platform at app.synphony.co but
+  publishes no public developer API, OpenAPI, or SDK at this time.
 url: https://raw.githubusercontent.com/api-evangelist/synphony/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Robotics
+- Artificial Intelligence
+- Agriculture
+- Automation
+- Machine Learning
+- Y Combinator
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/synphony-domain-security.yml
+- type: Website
+  url: https://www.synphony.co/
+- type: Blog
+  url: https://www.synphony.co/blog
+- type: Support
+  url: https://www.synphony.co/contact
+- type: SignUp
+  url: https://app.synphony.co
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
