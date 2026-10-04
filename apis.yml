@@ -51,7 +51,7 @@ tags:
 - Artificial Intelligence
 - Agriculture
 - Automation
-- Machine-Learning
+- Machine Learning
 - Y Combinator
 tags_raw:
 - Company
@@ -61,6 +61,7 @@ tags_raw:
 - Automation
 - Machine Learning
 - Y Combinator
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
